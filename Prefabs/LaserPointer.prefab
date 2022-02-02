@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9051375353464649881}
   - component: {fileID: 9051375353464649880}
   - component: {fileID: 9051375353464649887}
+  - component: {fileID: -4060425008088206323}
   m_Layer: 0
   m_Name: LaserPointer
   m_TagString: Untagged
@@ -51,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a6931b82c418b9243ae5b88edbbe1bb7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,3 +97,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: f6cb099157d8f25438e3cde42d9d064c, type: 2}
+--- !u!114 &-4060425008088206323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051375353464649886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92cd2eb904a8f454d8a3aa89918e0c13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
