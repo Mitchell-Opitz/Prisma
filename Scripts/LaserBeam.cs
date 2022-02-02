@@ -38,8 +38,7 @@ public class LaserBeam
 
         if(Physics.Raycast(ray, out hit, 30, 1))
         {
-            laserIndices.Add(hit.point);
-            UpdateLaser();
+            CheckHit(hit, direction, laser);
         }
         else
         {
@@ -57,6 +56,22 @@ public class LaserBeam
         {
             laser.SetPosition(counter, i);
             counter++;
+        }
+    }
+
+    void CheckHit(RaycastHit hitInfo, Vector2 direction, LineRenderer laser)
+    {
+        if(hitInfo.collider.gameObject.tag == "Mirror")
+        {
+            Vector2 position = hitInfo.point;
+            Vector2 dir = Vector2.Reflect(direction, hitInfo.normal);
+
+            CastRay(position, dir, laser);
+        }
+        else
+        {
+            laserIndices.Add(hitInfo.point);
+            UpdateLaser();
         }
     }
 
