@@ -81,7 +81,7 @@ public class LaserBeam
         else if(hitInfo.collider.gameObject.tag == "Target")
         {
             Target tar = (Target) hitInfo.collider.gameObject.GetComponent(typeof(Target));
-            tar.Testing();
+            tar.Activate();
             laserIndices.Add(hitInfo.point);
             UpdateLaser();
         }

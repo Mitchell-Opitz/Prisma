@@ -5,10 +5,22 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
 
-    public void Testing()
+    public List<GameObject> Doors;
+
+    public void Activate()
     {
-        Debug.Log("Target hit!");
+        // Convert Target to Barrier
         Renderer render = GetComponent<Renderer>();
-        render.material.color = Color.blue;
+        render.material.color = Color.black;
+        this.gameObject.tag = "Untagged";
+
+        // Trigger block removal
+        for(int i = Doors.Count-1; i >=0; i--)
+        {
+            Destroy(Doors[i].gameObject);
+        }
+
+        // Remove Target component
+        Destroy(this);
     }
 }
