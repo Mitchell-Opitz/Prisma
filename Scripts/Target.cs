@@ -6,6 +6,14 @@ public class Target : MonoBehaviour
 {
 
     public List<GameObject> Doors;
+    public Material material;
+    public Color color;
+
+    public void Start()
+    {
+        Renderer render = GetComponent<Renderer>();
+        render.material.color = color;
+    }
 
     public void Activate()
     {
