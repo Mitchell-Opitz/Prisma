@@ -11,7 +11,7 @@ public class LaserBeam
     List<Vector2> laserIndices = new List<Vector2>();
 
     // Refreshes every Update() to stay in sync with position/orientation of laser pointer.
-    public LaserBeam(Vector2 position, Vector2 direction, Material material)
+    public LaserBeam(Vector2 position, Vector2 direction, Material material, Color color)
     {
         this.laser = new LineRenderer();
         this.laserObj = new GameObject();
@@ -23,8 +23,8 @@ public class LaserBeam
         this.laser.startWidth = 0.1f;
         this.laser.endWidth = 0.1f;
         this.laser.material = material;
-        this.laser.startColor = Color.white;
-        this.laser.endColor = Color.white;
+        this.laser.startColor = color;
+        this.laser.endColor = color;
 
         CastRay(position, direction, laser);
     }
