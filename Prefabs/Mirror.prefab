@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2758103173391793822}
   - component: {fileID: 1489849825199502104}
   - component: {fileID: -6791628741140298273}
+  - component: {fileID: 2532620222943886626}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Mirror
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1331134663532759243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.1491, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -106,5 +107,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92cd2eb904a8f454d8a3aa89918e0c13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2532620222943886626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331134663532759243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8785fb6c52425914795f412bc4a2840d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
