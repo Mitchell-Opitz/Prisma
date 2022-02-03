@@ -11,11 +11,11 @@ public class LaserBeam
     List<Vector2> laserIndices = new List<Vector2>();
 
     // Refreshes every Update() to stay in sync with position/orientation of laser pointer.
-    public LaserBeam(Vector2 position, Vector2 direction, Material material, Color color)
+    public LaserBeam(Vector2 position, Vector2 direction, Material material, Color color, string name)
     {
         this.laser = new LineRenderer();
         this.laserObj = new GameObject();
-        this.laserObj.name = "Laser Beam";
+        this.laserObj.name = name;
         this.position = position;
         this.direction = direction;
 
