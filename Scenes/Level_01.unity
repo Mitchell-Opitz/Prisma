@@ -7872,7 +7872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &975503789
 Transform:
   m_ObjectHideFlags: 0
@@ -17069,6 +17069,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: c7904773598727547ba17f49883c4827, type: 3}
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
       value: WhiteTarget
