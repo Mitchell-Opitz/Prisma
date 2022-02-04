@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LaserBeam2
+  m_Name: Background1
   m_Shader: {fileID: -6465566751694194690, guid: 5235cb22c61ed1f4a9e2e974a3da94f9, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -36,10 +36,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_5b61c382986a448da835162a682235f3: 3.25
-    - Vector1_73922553e2324209bcfb01eaee91bf43: 4
-    - Vector1_d979879bbe864490bc820d9fef99fc7e: 0.41
-    - Vector1_ec744dbd8f67406ca104c4d9d1b13432: 2.13
+    - Vector1_5b61c382986a448da835162a682235f3: 7.39
+    - Vector1_73922553e2324209bcfb01eaee91bf43: 4.65
+    - Vector1_d979879bbe864490bc820d9fef99fc7e: 1.46
+    - Vector1_ec744dbd8f67406ca104c4d9d1b13432: 0.25
     m_Colors:
     - Color_993b02effdc14caea295440e3211dc20: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_89782a554bc14c2c85bc70dfb5cac680: {r: 0.5, g: 0, b: 0, a: 0}

@@ -4660,6 +4660,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519849240}
     m_Modifications:
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e274d2abb3efab4ca98c9ea87b51111, type: 3}
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
       value: GreenTarget
@@ -7383,6 +7391,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519849240}
     m_Modifications:
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e274d2abb3efab4ca98c9ea87b51111, type: 3}
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
       value: OrangeTarget
@@ -10740,6 +10756,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519849240}
     m_Modifications:
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e274d2abb3efab4ca98c9ea87b51111, type: 3}
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
       value: PurpleTarget
@@ -11063,6 +11087,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519849240}
     m_Modifications:
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e274d2abb3efab4ca98c9ea87b51111, type: 3}
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
       value: BlueTarget
@@ -12470,7 +12502,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a703ea1e1eec0054991dde47da516469, type: 2}
+  - {fileID: 2100000, guid: 0bb0ec8ad07f0f546a019cd52862add5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13009,6 +13041,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519849240}
     m_Modifications:
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e274d2abb3efab4ca98c9ea87b51111, type: 3}
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
       value: RedTarget
@@ -15920,6 +15960,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519849240}
     m_Modifications:
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e274d2abb3efab4ca98c9ea87b51111, type: 3}
+    - target: {fileID: -1681781100572078490, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
       value: YellowTarget
