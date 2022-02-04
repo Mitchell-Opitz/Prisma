@@ -274,6 +274,10 @@ PrefabInstance:
       propertyPath: color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f7f6289a4dd2f46b44e34e31b370c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
 --- !u!4 &19075511 stripped
@@ -1381,6 +1385,10 @@ PrefabInstance:
       propertyPath: color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f7f6289a4dd2f46b44e34e31b370c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
 --- !u!1001 &211937598
@@ -2155,6 +2163,10 @@ PrefabInstance:
       propertyPath: color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f7f6289a4dd2f46b44e34e31b370c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
 --- !u!1001 &319842034
@@ -3920,6 +3932,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3935,6 +3948,39 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -4845,6 +4891,10 @@ PrefabInstance:
       propertyPath: color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f7f6289a4dd2f46b44e34e31b370c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
 --- !u!1001 &599415756
@@ -5388,6 +5438,10 @@ PrefabInstance:
       propertyPath: color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f7f6289a4dd2f46b44e34e31b370c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
 --- !u!4 &643709917 stripped
@@ -15120,6 +15174,10 @@ PrefabInstance:
       propertyPath: color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f7f6289a4dd2f46b44e34e31b370c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
 --- !u!4 &1749264009 stripped
@@ -15535,6 +15593,10 @@ PrefabInstance:
       propertyPath: color.r
       value: 0.49803922
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f7f6289a4dd2f46b44e34e31b370c1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
 --- !u!4 &1787858126 stripped

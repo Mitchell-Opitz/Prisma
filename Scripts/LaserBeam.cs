@@ -20,8 +20,8 @@ public class LaserBeam
         this.direction = direction;
 
         this.laser = this.laserObj.AddComponent(typeof(LineRenderer)) as LineRenderer;
-        this.laser.startWidth = 0.1f;
-        this.laser.endWidth = 0.1f;
+        this.laser.startWidth = 0.15f;
+        this.laser.endWidth = 0.15f;
         this.laser.material = material;
         this.laser.startColor = color;
         this.laser.endColor = color;
