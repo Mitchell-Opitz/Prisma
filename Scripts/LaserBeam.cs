@@ -9,6 +9,7 @@ public class LaserBeam
     Vector2 position, direction;
     LineRenderer laser;
     List<Vector2> laserIndices = new List<Vector2>();
+    Color laserColor;
 
     // Refreshes every Update() to stay in sync with position/orientation of laser pointer.
     public LaserBeam(Vector2 position, Vector2 direction, Material material, Color color, string name)
@@ -24,6 +25,7 @@ public class LaserBeam
         this.laser.endWidth = 0.2f;
         this.laser.material = material;
         this.laser.startColor = color;
+        laserColor = color;
         this.laser.endColor = color;
 
         CastRay(position, direction, laser);
@@ -71,7 +73,7 @@ public class LaserBeam
         else if(hitInfo.collider.gameObject.tag == "Target")
         {
             Target target = (Target) hitInfo.collider.gameObject.GetComponent(typeof(Target));
-            target.Activate();
+            target.CheckColor(laserColor);
             AddLaserIndex(hitInfo);
         }
         else if(hitInfo.collider.gameObject.tag == "Prism")
