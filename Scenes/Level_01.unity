@@ -4810,6 +4810,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7009241925915491075, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 39085fe93931bf043b6d4dceef9c14db, type: 2}
     - target: {fileID: 7009241925915491077, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
       propertyPath: m_Name
       value: OrangeDoor
@@ -4871,6 +4875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteLaser
       objectReference: {fileID: 0}
+    - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
+      propertyPath: glow
+      value: 
+      objectReference: {fileID: 2100000, guid: 62db2b42f27f3e84b83dbf2c5507f7c1, type: 2}
     - target: {fileID: 9051375353464649887, guid: 814546cd491a8ed43b840fb845e69f4f, type: 3}
       propertyPath: name
       value: WhiteBeam
@@ -6058,6 +6066,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7009241925915491075, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 417e9196a024e4c4fb875df7106ddf34, type: 2}
     - target: {fileID: 7009241925915491077, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
       propertyPath: m_Name
       value: YellowDoor
@@ -14464,6 +14476,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7009241925915491075, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bdc03e07991ca2b45bd5106b8e0b0781, type: 2}
     - target: {fileID: 7009241925915491077, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
       propertyPath: m_Name
       value: PurpleDoor
@@ -15809,7 +15825,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1784611305936452930, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_Name
-      value: GreenTarget (1)
+      value: YellowTarget
       objectReference: {fileID: 0}
     - target: {fileID: 1784611305936452934, guid: 3da93631d6e869b4f869f0688a14b099, type: 3}
       propertyPath: m_RootOrder
@@ -16927,6 +16943,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7009241925915491075, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17e27054c068cce419a498c6fb508a11, type: 2}
     - target: {fileID: 7009241925915491077, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
       propertyPath: m_Name
       value: GreenDoor
@@ -18486,6 +18506,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7009241925915491075, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2654c9f2c1deebe4b9ae8b8f7e023077, type: 2}
     - target: {fileID: 7009241925915491077, guid: d0b66b563ea796145937bd18e5603f57, type: 3}
       propertyPath: m_Name
       value: BlueDoor
