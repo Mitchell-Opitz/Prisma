@@ -96,6 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ed4346707fbda46be712f77da1ce4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Doors: []
+  targetSound: {fileID: 0}
+  material: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &86226557741436185
 BoxCollider:
   m_ObjectHideFlags: 0

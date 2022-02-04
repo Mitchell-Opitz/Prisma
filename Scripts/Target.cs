@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Target : MonoBehaviour
 {
 
     public List<GameObject> Doors;
+    public AudioSource targetSound;
     public Material material;
     public Color color;
 
@@ -39,5 +41,7 @@ public class Target : MonoBehaviour
 
         // Remove Target component
         Destroy(this);
+        targetSound = GetComponent<AudioSource>();
+        targetSound.Play(0);
     }
 }
