@@ -11,6 +11,8 @@ public class Target : MonoBehaviour
     public Material material;
     public Color color;
 
+    public SceneFader sceneFader;
+
     void Start()
     {
         Renderer render = GetComponent<Renderer>();
@@ -23,6 +25,13 @@ public class Target : MonoBehaviour
             laserColor[2] == color[2])
         {
             Activate();
+            if (color[0] == 1 &
+                color[1] == 1 &
+                color[2] == 1)
+            {
+                sceneFader.FadeTo("Complete");
+                DontDestroyOnLoad(this.gameObject);
+            }
         }
     }
 
